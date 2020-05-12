@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #2C2141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    background: #F8F8F8;
+    max-width: 624px;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.business-card__fullname {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.business-card__workplace {
+    font-size: 16px;
+    color: #545454;
+    font-style: italic;
+    margin: 0;
+}
+
+.business-card__description {
+    margin-top: 24px;
+}
+
+.business-card__link {
+    text-decoration: none;
+    font-weight: normal;
+    color: #E20613;
+}
+
+.special {
+    color: #ED6D05;
+}
