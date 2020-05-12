@@ -22,6 +22,12 @@ body {
     max-width: 624px;
     padding: 32px;
     border-radius: 16px;
+    font-size: 16px;
+}
+
+.business-card {
+    display: flex;
+
 }
 
 .business-card__fullname {
@@ -30,8 +36,12 @@ body {
     margin: 0;
 }
 
+.business-card__picture {
+    align-self: flex-start;
+}
+
 .business-card__workplace {
-    font-size: 16px;
+
     color: #545454;
     font-style: italic;
     margin: 0;
@@ -39,6 +49,7 @@ body {
 
 .business-card__description {
     margin-top: 24px;
+    line-height: 22px;
 }
 
 .business-card__link {
@@ -49,4 +60,8 @@ body {
 
 .special {
     color: #ED6D05;
+}
+
+.wrapper {
+    margin-left: 32px;
 }
