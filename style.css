@@ -38,6 +38,7 @@ body {
 
 .business-card__picture {
     align-self: flex-start;
+    margin-right: 32px;
 }
 
 .business-card__workplace {
@@ -60,8 +61,5 @@ body {
 
 .special {
     color: #ED6D05;
-}
-
-.wrapper {
-    margin-left: 32px;
+    font-weight: normal;
 }
